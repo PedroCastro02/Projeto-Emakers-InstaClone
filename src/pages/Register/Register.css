@@ -1,0 +1,28 @@
+.container2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.registros {
+    display: flex;
+    width: 35%;
+    height: 100vh;
+}
+.logo2 {
+    width: 65%;
+    height: 100vh;
+    background: linear-gradient(180deg, #75206C 44.69%, #FE690E 100%);
+    border-left: solid #FE690E;
+}
+img {
+    margin-top: 10%;
+    margin-left: 32%;
+    margin-right: 28%;
+    width: 40%;
+}
+p {
+    margin-top: 10%;
+    color: rgba(254, 252, 255, 1);
+    font-size: 48px;
+}

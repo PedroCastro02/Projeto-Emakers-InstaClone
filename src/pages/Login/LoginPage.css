@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  img {
+    width: 40%;
+  }
+  .loginContainer {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerContainer {
+    width: 45%;
+    height: 100vh;
+    background: linear-gradient(180deg, #75206C 44.69%, #FE690E 100%);
+    border-left: solid #FE690E;
+    color: white;
+  }
+  
+  #title {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+    color: #5e2075;
+  }
+  
+  #form1 {
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+  #label1 {
+    color:#5e2075;
+    margin-left: 2%;
+    font-size: 20px;
+    padding: 1rem;
+  }
+  #label2 {
+    color:#5e2075;
+    margin-left: 2%;
+    font-size: 20px;
+    padding: 1rem;
+  }
+  .input {
+    width: 105%;
+    height: 33%;
+    border-radius: 35px;
+    border-color: white;
+    margin: 2%;
+    box-shadow: 0px 1px 0px black;
+    font-size: 20px;
+    padding-left: 4%;
+    border: 2px;
+  }
+  #button1 {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 37%;
+    height: 26%; 
+    background: #5E2075;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  #button1:hover {
+      transform: scale(1.1);
+  }
+  
+  #title2 {
+    text-align: center;
+    margin-top: 33%;
+    font-size: 40px;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+  #button2 {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 11%;
+    width: 35%;
+    height: 6.5%; 
+    background: #FE690E;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  #button2:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 767px) {
+      .container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      } 
+      .loginContainer {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .registerContainer {
+        width: 100%;
+        height: 50%;
+        border-left: none;
+        border-top: solid #FE690E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #title {
+        margin-top: 5%;
+        font-size: 35px;
+      }
+      img {
+        position: fixed;
+        width: 45%;
+        top: 0;
+        left: 25%;
+      }
+  
+      #title2 {
+        margin-top: 0%;
+        font-size: 35px;
+      }
+      p {
+        margin-top: 5%;
+        font-size: 35px;
+      }
+      #button1 {
+        width: 60%;
+        height: 24%; 
+        border-radius: 35px;
+        margin-left: 25%;
+        font-size: 18px;
+        margin-top: 10%;
+      }
+      #button2 {
+        margin-left: 0%;
+        margin-top: 11%;
+        width: 40%;
+        height: 8%;
+        font-size: 18px; 
+      }
+      .input {
+        width: 300px;
+        height: 33%;
+        font-size: 20px;
+      }
+  }
+  
+  
+  
+  

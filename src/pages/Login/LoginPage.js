@@ -1,8 +1,16 @@
 
 import 'C:/Users/User/Desktop/projeto/src/pages/Login/LoginPage.css';
 import Logo from 'C:/Users/User/Desktop/projeto/src/assets/LogoPaginaLogin.png'
+import { useNavigate } from 'react-router-dom';
+
+
 
 function LoginPage() {
+  const navigate = useNavigate(); 
+  
+  const goToRegisterPage = () => {
+  navigate ('/Register');
+}
   return (
     <div className="container">
       <div className="loginContainer">
@@ -15,14 +23,15 @@ function LoginPage() {
           <label id="label2" htmlFor="password">Senha</label><br />
           <input type="password" className='input' name="password"  /><br />
         
-          <button id="button1" type="submit">Entrar</button><br />
+          <button 
+          id="button1" type="submit">Entrar</button><br />
         </form>
       </div>
       <div className="registerContainer">
         
         <h2 id="title2">Novo Aqui?</h2>
         <p>Registre-se e venha fazer parte da maior rede social!</p>
-        <button id="button2">Registrar-se</button>
+        <button id="button2" data-testid="register-button" onClick={goToRegisterPage}>Registrar-se</button>
 
       </div>
     </div>

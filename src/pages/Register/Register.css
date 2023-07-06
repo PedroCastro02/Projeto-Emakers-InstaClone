@@ -6,6 +6,7 @@
 }
 .registros {
     display: flex;
+    flex-direction: column;
     width: 35%;
     height: 100vh;
 }
@@ -15,14 +16,30 @@
     background: linear-gradient(180deg, #75206C 44.69%, #FE690E 100%);
     border-left: solid #FE690E;
 }
-img {
+.img2 {
     margin-top: 10%;
     margin-left: 32%;
     margin-right: 28%;
     width: 40%;
 }
-p {
+.p2 {
     margin-top: 10%;
     color: rgba(254, 252, 255, 1);
     font-size: 48px;
+}
+
+#TituloEsquerdoRegistro {
+    text-align: center;
+    font-size: 53px;
+    color:#5e2075;
+    font-family: 'Roboto';
+    margin-top: 5%;
+}
+.formRegistro2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
 }

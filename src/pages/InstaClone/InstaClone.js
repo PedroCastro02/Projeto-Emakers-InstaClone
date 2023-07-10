@@ -1,3 +1,5 @@
+
+
 function InstaClonePage() {
     return (
       <h1>InstaClone</h1>

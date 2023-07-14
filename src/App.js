@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LoginPage />} />
         <Route path='/Register' element={<RegisterPage />} />
-        <Route path='/InstaClone' element={<InstaClonePage />} />
+        <Route path='/InstaClonePage' element={<InstaClonePage />} />
       </Routes>
     </BrowserRouter>
   ); 

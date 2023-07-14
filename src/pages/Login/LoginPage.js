@@ -4,17 +4,20 @@ import Logo from 'C:/Users/User/Desktop/projeto/src/assets/LogoPaginaLogin.png'
 import { useNavigate } from 'react-router-dom';
 
 
-
 function LoginPage() {
-  const navigate = useNavigate(); 
-  
+  const navigate = useNavigate();
+
   const goToRegisterPage = () => {
-  navigate ('/Register');
-}
+    navigate('/Register');
+  };
+
+  const goToInstaClonePage = () => {
+    navigate('/InstaClonePage');
+  };
   return (
     <div className="container">
       <div className="loginContainer">
-        <img src={Logo} alt=""/>
+        <img src={Logo} alt="" />
         <h2 id="title"><strong>Entre em Sua Conta</strong></h2>
         <form id="form1">
           <label id="label1" htmlFor="email">E-mail</label> <br />
@@ -24,7 +27,7 @@ function LoginPage() {
           <input type="password" className='input' name="password"  /><br />
         
           <button 
-          id="button1" type="submit">Entrar</button><br />
+          id="button1" type="submit" data-testid="enter-button" onClick={goToInstaClonePage}>Entrar</button><br />
         </form>
       </div>
       <div className="registerContainer">

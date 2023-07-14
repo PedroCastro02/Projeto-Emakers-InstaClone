@@ -2,7 +2,6 @@
     width: 100%;
     height: 100vh;
     display: flex;
-
 }
 .registros {
     display: flex;
@@ -37,8 +36,9 @@
 }
 .formRegistro2 {
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 10%;
+    height: 100%;
 }
 .form-control {
     margin-top: 4.5%;
@@ -67,26 +67,61 @@
 .inputRegistro::placeholder {
     color: #5e2075;
 }
+
+
+
 #formRegistro3 { 
     display: flex;
+    justify-content: space-around;
     margin-left: 8%;
 }
+
 #gender {
     width: 100%;
-    height: 100%;
     margin-top: 10%;
+    height: 7vh;
     border-radius: 30px;
     background-color: rgb(250, 249, 249);
-    box-shadow: 0px 1px 0px black;
+    box-shadow: 0px 3px 0px rgb(190, 190, 190);
     border-color: white;
     padding: 0.8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: large;
+}
+.input3 {
+    color: #5e2075;
 }
 
+input[type="file"] {
+    display: none;
+}
+
+
+#labelParagrafo {
+    color: #5e2075;
+    font-size: 1.3rem;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 0;
+}
+.LabelInputFile {
+    color: #5e2075;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0px 3px 0px rgb(190, 190, 190);
+    border-color: white;
+    padding: 1.7rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    cursor: pointer;
+}
 #button3 {
     color: aliceblue;
     text-align: center;
-    margin-left: 30%;
-    margin-top: 13%;
+    margin-left: 28%;
+    margin-top: 5%;
     width: 50%;
     height: 10%; 
     background-color: #5e2075 ;
@@ -102,9 +137,10 @@
     transform: scale(1.1);
 }
 .p3 { 
-    margin-left: 33%;
+    margin-left: 28%;
     font-size: 1.5rem;
     margin-top: 4%;
     color: #5e2075;
     cursor: pointer;
 }
+

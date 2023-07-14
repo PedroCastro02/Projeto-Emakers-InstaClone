@@ -34,7 +34,7 @@ function InstaClonePage() {
 
           <div className="Biografia">
             <div className="Biografia2">
-              <h1 className="Nome86">Pedro Botelho, 21</h1>
+              <h1 className="Nome86">Pedro Rodrigues Botelho, 21</h1>
               <h3 className="bio">É necessário sempre acreditar que o sonho é possível. Que o céu é o limite e você, truta, é imbatível. Que o tempo ruim vai passar, é só uma fase</h3>
             </div>
           </div>

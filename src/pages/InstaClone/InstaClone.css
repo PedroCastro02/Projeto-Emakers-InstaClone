@@ -58,7 +58,7 @@ nav img{
 }
 .circle1:hover {
     transform: scale(1.3);
-    background-color: #f5c792;
+    background-color: #fdf2e5;
     border-color: #FE690E;
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
@@ -91,8 +91,72 @@ nav img{
     position: absolute;
     margin-top: 12%;
     margin-left: 16%;
+    border: none;
 }
 .botaoEdit2 {
     margin-top: 7%;
     margin-left: 95%;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .iconGroup {
+        display: none;
+    }
+    .botaoEdit {
+        position: relative;
+        margin-top: 0%;
+        margin-left: 65%;
+    }
+    .circle1 {
+
+        width: 35px;
+        height: 35px;
+        margin-top: 0%;
+        border-radius: 70px;
+    }
+    .botaoEdit2{
+        display: none;
+    }
+    nav img{
+        position: inherit;
+        width: 50%;
+        object-fit:contain;
+    }
+    .Nome86 {
+        margin-right: 20%;
+    }
+    
+    .background {
+        width: 100%;
+        height: 25%;
+    }
+    .PerfilImg #ImagemDePerfil {
+        position: inherit;
+        margin-top: 10%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .Biografia {
+        font-size: 0.8rem;
+        margin-top: 25%;
+        text-align: center;
+    }
+    .Biografia2 {
+        border-color: 2px solid black;
+    }
+        
+    .ImgPlace {
+        position: inherit;
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .fotos {
+        position: inherit;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
 }
